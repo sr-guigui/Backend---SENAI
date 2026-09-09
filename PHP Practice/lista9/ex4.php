@@ -1,0 +1,12 @@
+<?php
+
+$numeros = [1, 2, 3,10, 4, 5, 6, 7, 8, 9];
+$maior = $numeros[0];
+
+foreach ($numeros as $num) {
+    if ($num>$maior) {
+        $maior = $num;
+    }
+}
+echo "Maior número: $maior";
+?>
